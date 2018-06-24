@@ -124,4 +124,7 @@ Hex Description                 Hex Description
 7D  RIGHT CURLY BRACKET         FD  SMALL LETTER Y WITH ACUTE
 7E  TILDE                       FE  SMALL LETTER THORN (Icelandic)
                                 FF  SMALL LETTER Y WITH DIAERESIS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

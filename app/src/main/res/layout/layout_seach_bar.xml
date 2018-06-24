@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:background="@color/LimeGreen"
+        android:layout_weight="1"
+        android:id="@+id/search_text"
+        android:drawableLeft="@drawable/ic_search_icon"
+        android:hint="Search"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp" />
+
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_category_icon"
+        android:id="@+id/category_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
